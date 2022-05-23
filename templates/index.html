@@ -1,0 +1,184 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html prefix="og: http://ogp.me/ns#" lang="en" style="height: 100%">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html" charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+
+  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, maximum-scale=5" />
+
+  <title>meowpage</title>
+  <meta name="description" content="meowpage Description">
+  <meta property="og:title" content="meowpage">
+  <meta property="og:description" content="meowpage Description">
+  <meta name="generator" content="Quest">
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400">
+
+  <script src="index.js"></script>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/modal.css' ) }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/index.css' ) }}">
+
+</head>
+
+<body class="websiteBody">
+  <h3 style="text-align: center; color:darkgrey"> 
+    {% with messages = get_flashed_messages() %}
+    {% if messages %}
+    {% for message in messages %}
+    <p>{{ message }}</p>
+    {% endfor %}
+    {% endif %}
+    {% endwith %}
+  </h3>
+  <div class="Page-outer">
+    <div id="Page" data-name="Page" class="Page">
+      <div class="Frame-outer">
+        <div id="Frame" data-name="First Page" class="Frame">
+          <div class="Background-outer">
+            <div id="Background" data-name="Background" class="Background">
+              <div class="milad-fakurian-nY14F-outer">
+
+              </div>
+            </div>
+          </div>
+          <div class="Attendance-outer">
+            <div id="Attendance" data-name="Attendance" class="Attendance">
+              <div class="Attendance-System-outer">
+                <div id="Attendance-System" data-name="Attendance System" class="Attendance-System">
+                  <div key="0">Attendance System</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="Student-outer">
+            <div id="Student" data-name="Student" class="Student">
+              <div class="Students-login-outer">
+                <div id="Students-login" data-name="Students login" class="Students-login">
+                  <div key="0">Students</div>
+                  <div key="1">login</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="Teacher-outer">
+            <div id="Teacher" data-name="Teacher" class="Teacher">
+              <div class="Teachers-login-outer">
+                <div id="Teachers-login" data-name="Teachers login" class="Teachers-login">
+                  <div key="0">Teachers</div>
+                  <div key="1">login</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="Rectangle-1-outer">
+            <div id="Rectangle-1" data-name="Rectangle 1" alt="Rectangle 1" class="Rectangle-1">
+            </div>
+          </div>
+          <div class="Rectangle-2-outer">
+            <div id="Rectangle-2" data-name="Rectangle 2" alt="Rectangle 2" class="Rectangle-2">
+            </div>
+          </div>
+
+
+          <div class="Login-1-outer">
+            <div id="Login-1" data-name="Login" class="Login-1">
+              <button onclick="document.getElementById('id01').style.display='block'"
+                style="width:auto;font-size:50px;">Login</button>
+              <div id="id01" class="modal">
+                <form class="modal-content animate" action="/login" method="post">
+                  <div class="imgcontainer">
+                    <span onclick="document.getElementById('id01').style.display='none'" class="close"
+                      title="Close Modal">&times;</span>
+                    <img src="../static/images/teacher.png" alt="Avatar" class="avatar">
+                  </div>
+
+                  <div class="container">
+                    <label for="uname"><b>Username</b></label>
+                    <input type="text" placeholder="Enter Username" name="uname" required>
+                    <label for="psw"><b>Password</b></label>
+                    <input type="password" placeholder="Enter Password" name="psw" required>
+
+                    <button type="submit" style="color:black ;">Login</button>
+                    <label>
+                      <input type="checkbox" checked="checked" name="remember"> Remember me
+                    </label>
+                  </div>
+
+                  <div class="container" style="background-color:#f1f1f1">
+                    <button type="button" onclick="document.getElementById('id01').style.display='none'"
+                      class="cancelbtn">Cancel</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+
+          <div class="Login-outer">
+            <div id="Login" data-name="Login" class="Login">
+              <button onclick="document.getElementById('id02').style.display='block'"
+                style="width:auto;font-size: 50px;">Login</button>
+              <div id="id02" class="modal">
+
+                <form class="modal-content animate" action="/login" method="post">
+                  <div class="imgcontainer">
+                    <span onclick="document.getElementById('id02').style.display='none'" class="close"
+                      title="Close Modal">&times;</span>
+                    <img src="../static/images/student.jpg" alt="Avatar1" class="avatar" />
+                    <!-- <img src="../templates/image/sankett.jpg" alt="Avatar1" class="avatar"> -->
+                  </div>
+
+                  <div class="container">
+                    <label for="uname"><b>Username</b></label>
+                    <input type="text" placeholder="Enter Username" name="uname" required>
+
+                    <label for="psw"><b>Password</b></label>
+                    <input type="password" placeholder="Enter Password" name="psw" required>
+
+                    <button type="submit" style="color:black ;">Login</button>
+                    <label>
+                      <input type="checkbox" checked="checked" name="remember"> Remember me
+                    </label>
+                  </div>
+
+                  <div class="container" style="background-color:#f1f1f1">
+                    <button type="button" onclick="document.getElementById('id02').style.display='none'"
+                      class="cancelbtn">Cancel</button>
+
+                  </div>
+                </form>
+              </div>
+
+
+            </div>
+          </div>
+
+
+
+
+
+
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var modal = document.getElementById('id01');
+      window.onclick = function (event) {
+        if (event.target == modal) {
+          modal.style.display = "none";
+        }
+      }
+      var modal = document.getElementById('id02');
+      window.onclick = function (event) {
+        if (event.target == modal) {
+          modal.style.display = "none";
+        }
+      }
+    </script>
+  </div>
+
+</body>
+
+</html>

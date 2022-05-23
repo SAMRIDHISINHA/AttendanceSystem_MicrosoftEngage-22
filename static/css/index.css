@@ -1,0 +1,308 @@
+.websiteBody {
+  margin: 0;
+  background: url("assets/images/milad_fakurian_nY14Fs8pxT8_unsplash_1.png");
+  background-size: cover ;
+  background-position: center center;
+
+}
+.Page {
+  display: block;
+  margin: auto;
+  width: 100%;
+  height: auto;
+  pointer-events: auto;
+}
+.Page-outer {
+  /*   pointer-events:none; */
+  z-index: 1;
+}
+.Frame {
+  position: relative;
+  z-index: 2;
+  /*   pointer-events:none; */
+  transform: rotate(1.24240424649975e-17deg);
+  width: 100%;
+  margin-left: 0;
+  height: 720px;
+  min-width: 200px;
+  max-width: 1280px;
+  margin: auto;
+  background-color: transparent;
+  overflow: hidden;
+}
+.Frame-outer {
+  /*   pointer-events:none; */
+  z-index: 2;
+}
+.Background {
+  position: relative;
+  z-index: 3;
+  /*   pointer-events:none; */
+  margin-left: -10px;
+  width: 1310px;
+  min-width: 1310px;
+  height: 740px;
+  margin-top: -10px;
+  margin-bottom: -10px;
+  min-height: 740px;
+}
+.Background-outer {
+  /*   pointer-events:none; */
+  z-index: 3;
+  position: relative;
+  display: flex;
+}
+.milad-fakurian-nY14F {
+  position: relative;
+  z-index: 4;
+  /*   pointer-events:none; */
+  margin-left: 10px;
+  width: 1290px;
+  min-width: 1290px;
+  height: 720px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  min-height: 720px;
+  /* content:url(assets/images/milad_fakurian_nY14Fs8pxT8_unsplash_1.png); */
+}
+.milad-fakurian-nY14F-outer {
+  /*   pointer-events:none; */
+  z-index: 4;
+  position: relative;
+  display: flex;
+}
+.Attendance {
+  position: relative;
+  z-index: 5;
+  /*   pointer-events:none; */
+  margin-left: 385px;
+  width: 544px;
+  min-width: 544px;
+  height: 91px;
+  margin-top: -672px;
+  margin-bottom: 581px;
+  min-height: 91px;
+  background-color: rgba(251, 227, 242, 1);
+  border-radius: 20px;
+}
+.Attendance-outer {
+  /*   pointer-events:none; */
+  z-index: 5;
+  position: relative;
+  display: flex;
+}
+.Attendance-System {
+  position: relative;
+  z-index: 6;
+  /*   pointer-events:none; */
+  margin-left: 83px;
+  width: 433px;
+  min-width: 378px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  min-height: 59px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  color: rgba(0, 0, 0, 1);
+  font-style: italic;
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 61px;
+}
+.Attendance-System-outer {
+  /*   pointer-events:none; */
+  z-index: 6;
+  position: relative;
+  display: flex;
+}
+.Student {
+  position: relative;
+  z-index: 9;
+  /*   pointer-events:none; */
+  margin-left: 852px;
+  width: 360px;
+  min-width: 360px;
+  height: 380px;
+  margin-top: -490px;
+  margin-bottom: 110px;
+  min-height: 380px;
+  background-color: rgba(251, 227, 242, 1);
+  border-radius: 44px;
+}
+.Student-outer {
+  /*   pointer-events:none; */
+  z-index: 9;
+  position: relative;
+  display: flex;
+}
+.Students-login {
+  position: relative;
+  z-index: 10;
+  /*   pointer-events:none; */
+  margin-left: 88px;
+  width: 198px;
+  min-width: 174px;
+  margin-top: 50px;
+  margin-bottom: 212px;
+  min-height: 118px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  color: rgba(0, 0, 0, 1);
+  font-style: italic;
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 61px;
+}
+.Students-login-outer {
+  /*   pointer-events:none; */
+  z-index: 10;
+  position: relative;
+  display: flex;
+}
+.Teacher {
+  position: relative;
+  z-index: 7;
+  /*   pointer-events:none; */
+  margin-left: 108px;
+  width: 360px;
+  min-width: 360px;
+  height: 380px;
+  margin-top: -490px;
+  margin-bottom: 110px;
+  min-height: 380px;
+  background-color: rgba(251, 227, 242, 1);
+  border-radius: 44px;
+}
+.Teacher-outer {
+  /*   pointer-events:none; */
+  z-index: 7;
+  position: relative;
+  display: flex;
+}
+.Teachers-login {
+  position: relative;
+  z-index: 8;
+  /*   pointer-events:none; */
+  margin-left: 88px;
+  width: 205px;
+  min-width: 178px;
+  margin-top: 50px;
+  margin-bottom: 212px;
+  min-height: 118px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  color: rgba(0, 0, 0, 1);
+  font-style: italic;
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 61px;
+}
+.Teachers-login-outer {
+  /*   pointer-events:none; */
+  z-index: 8;
+  position: relative;
+  display: flex;
+}
+.Rectangle-1 {
+  position: relative;
+  z-index: 12;
+  /*   pointer-events:none; */
+  margin-left: 196px;
+  width: 172px;
+  min-width: 172px;
+  height: 79px;
+  margin-top: -258px;
+  margin-bottom: 179px;
+  min-height: 79px;
+  background-color: rgba(251, 2, 144, 1);
+  border-radius: 44px;
+}
+.Rectangle-1-outer {
+  /*   pointer-events:none; */
+  z-index: 12;
+  position: relative;
+  display: flex;
+}
+.Rectangle-2 {
+  position: relative;
+  z-index: 11;
+  /*   pointer-events:none; */
+  margin-left: 940px;
+  width: 172px;
+  min-width: 172px;
+  height: 79px;
+  margin-top: -258px;
+  margin-bottom: 179px;
+  min-height: 79px;
+  background-color: rgba(251, 2, 144, 1);
+  border-radius: 44px;
+}
+.Rectangle-2-outer {
+  /*   pointer-events:none; */
+  z-index: 11;
+  position: relative;
+  display: flex;
+}
+.Login {
+  position: relative;
+  z-index: 13;
+
+  margin-left: 967px;
+  width: 124px;
+  min-width: 108px;
+  margin-top: -248px;
+  margin-bottom: 189px;
+  min-height: 59px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  color: rgba(255, 249, 249, 1);
+  font-style: italic;
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 61px;
+}
+.Login-outer {
+  /*   pointer-events:none; */
+  z-index: 13;
+  position: relative;
+  display: flex;
+}
+.Login-1 {
+  position: relative;
+  z-index: 13;
+  /*   pointer-events:none; */
+  margin-left: 228px;
+  width: 124px;
+  min-width: 108px;
+  margin-top: -248px;
+  margin-bottom: 189px;
+  min-height: 59px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  color: rgba(255, 249, 249, 1);
+  font-style: italic;
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 61px;
+}
+.Login-1-outer {
+  /*   pointer-events:none; */
+  z-index: 13;
+  position: relative;
+  display: flex;
+}
