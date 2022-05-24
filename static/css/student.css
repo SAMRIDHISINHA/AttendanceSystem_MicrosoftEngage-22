@@ -1,0 +1,255 @@
+.websiteBody {
+  margin: 0;
+  background: url("assets/images/milad_fakurian_nY14Fs8pxT8_unsplash_1.png");
+  background-size: cover ;
+  background-position: center center;
+}
+.Page {
+  display: block;
+  margin: auto;
+  width: 100%;
+  height: auto;
+  pointer-events: auto;
+}
+.Page-outer {
+  z-index: 1;
+}
+.Frame {
+  position: relative;
+  z-index: 2;
+
+  width: 100%;
+  margin-left: 0;
+  height: 720px;
+  min-width: 200px;
+  max-width: 1280px;
+  margin: auto;
+  background-color: rgba(255, 255, 255, 1);
+  overflow: hidden;
+}
+.Frame-outer {
+  z-index: 2;
+}
+.Background {
+  position: relative;
+  z-index: 3;
+
+  margin-left: -10px;
+  width: 1310px;
+  min-width: 1310px;
+  height: 740px;
+  margin-top: -10px;
+  margin-bottom: -10px;
+  min-height: 740px;
+}
+.Background-outer {
+  z-index: 3;
+  position: relative;
+  display: flex;
+}
+.milad-fakurian-nY14F {
+  position: relative;
+  z-index: 4;
+
+  margin-left: 10px;
+  width: 1290px;
+  min-width: 1290px;
+  height: 720px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  min-height: 720px;
+  content: url(assets/images/milad_fakurian_nY14Fs8pxT8_unsplash_1.png);
+}
+.milad-fakurian-nY14F-outer {
+  z-index: 4;
+  position: relative;
+  display: flex;
+}
+.Top-bar {
+  position: relative;
+  z-index: 9;
+
+  transform: rotate(-1.987846675914698e-16deg);
+  margin-left: 340px;
+  width: 604px;
+  min-width: 604px;
+  height: 69px;
+  margin-top: -696px;
+  margin-bottom: 627px;
+  min-height: 69px;
+  background-color: rgba(251, 227, 242, 1);
+  border-radius: 20px;
+}
+.Top-bar-outer {
+  z-index: 9;
+  position: relative;
+  display: flex;
+}
+.Scan-Your-face {
+  position: relative;
+  z-index: 12;
+
+  margin-left: 526px;
+  width: 268px;
+  min-width: 233px;
+  margin-top: -684px;
+  margin-bottom: 637px;
+  min-height: 47px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  color: rgba(0, 0, 0, 1);
+  font-style: italic;
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 48px;
+}
+.Scan-Your-face-outer {
+  z-index: 12;
+  position: relative;
+  display: flex;
+}
+.Frame-10 {
+  position: relative;
+  z-index: 1;
+
+  margin-left: 342px;
+  width: 600px;
+  min-width: 600px;
+  height: 400px;
+  margin-top: -578px;
+  margin-bottom: 178px;
+  min-height: 400px;
+  background-color: rgba(217, 217, 217, 1);
+  border-radius: 36px;
+}
+.Frame-10-outer {
+  z-index: 10;
+  position: relative;
+  display: flex;
+}
+.image-1 {
+  position: relative;
+  z-index: 4;
+
+  margin-left: 0px;
+  width: 600px;
+  min-width: 600px;
+  height: 400px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  min-height: 400px;
+  content: url(assets/images/image_1.png);
+}
+.image-1-outer {
+  z-index: 4;
+  position: relative;
+  display: flex;
+}
+.Frame-11 {
+  position: relative;
+  z-index: 7;
+
+  margin-left: 764px;
+  width: 261px;
+  min-width: 261px;
+  height: 65px;
+  margin-top: -137px;
+  margin-bottom: 72px;
+  min-height: 65px;
+  background-color: rgba(251, 227, 242, 1);
+  border-radius: 20px;
+}
+.Frame-11-outer {
+  z-index: 7;
+  position: relative;
+  display: flex;
+}
+.Upload-Photo {
+  position: relative;
+  z-index: 8;
+
+  margin-left: 65px;
+  width: 151px;
+  min-width: 131px;
+  margin-top: 18px;
+  margin-bottom: 18px;
+  min-height: 29px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  color: rgba(0, 0, 0, 1);
+  font-style: italic;
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 30px;
+}
+.Upload-Photo-outer {
+  z-index: 8;
+  position: relative;
+  display: flex;
+}
+.Frame-3 {
+  position: relative;
+  z-index: 5;
+
+  margin-left: 264px;
+  width: 261px;
+  min-width: 261px;
+  height: 65px;
+  margin-top: -137px;
+  margin-bottom: 72px;
+  min-height: 65px;
+  background-color: rgba(251, 227, 242, 1);
+  border-radius: 20px;
+}
+.Frame-3-outer {
+  z-index: 5;
+  position: relative;
+  display: flex;
+}
+.Upload-Photo-1 {
+  position: relative;
+  z-index: 6;
+
+  margin-left: 65px;
+  width: 151px;
+  min-width: 131px;
+  margin-top: 18px;
+  margin-bottom: 18px;
+  min-height: 29px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  color: rgba(0, 0, 0, 1);
+  font-style: italic;
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 30px;
+}
+.Upload-Photo-1-outer {
+  z-index: 6;
+  position: relative;
+  display: flex;
+}
+a {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+  }
+
+.screen{ 
+    width: 600px;
+    min-width: 600px;
+    height: 400px;
+    margin-bottom: 178px;
+    min-height: 400px;
+    background-color: rgba(217, 217, 217, 1);
+    border-radius: 36px; 
+}
