@@ -1,0 +1,30 @@
+{%extends "base.html"%}
+
+{%block content%}
+
+<center>
+	<h1 class="font-italic">
+		<button class="btn btn-primary btn-lg">
+			<a href="{{url_for('collecting')}}" style="color: Black;">Back</a></button>
+		&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+		&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;
+		&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; 
+		&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;
+		&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+		&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; 
+		&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;<button class="btn btn-danger btn-lg">
+			<a href="{{url_for('home')}}" style="color: Black;"> Login	Page</a></button>
+		<br>
+		<h2 class='text-primary'>You Are Looking <span class='text-primary font-weight-bold'> {{data}} </span> </h2>
+	</h1>
+
+	<img src="{{url_for('static', filename='after.jpg')}}" height=30% width=30%>
+
+	</body>
+
+
+
+</center>
+
+
+{%endblock%}

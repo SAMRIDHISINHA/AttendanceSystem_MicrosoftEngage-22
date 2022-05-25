@@ -306,3 +306,24 @@
   position: relative;
   display: flex;
 }
+.box{
+  display: flex;
+  justify-content: center;
+  height: 33px;
+  width: 100vw;
+  background-color: black;
+  align-items: center;
+}
+a{
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: large;
+  color: bisque;
+  margin-left: 98px;
+  margin-right: 85px;
+  font-family: 'Alice', serif;
+  letter-spacing: 2px;
+}
+a:hover{
+  color: rgb(255, 235, 55);
+}

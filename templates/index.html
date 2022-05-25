@@ -1,5 +1,5 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html prefix="og: http://ogp.me/ns#" lang="en" style="height: 100%">
+<!DOCTYPE html>
+<html ang="en" style="height: 100%">
 
 <head>
   <meta http-equiv="Content-Type" content="text/html" charset="utf-8" />
@@ -8,22 +8,16 @@
 
   <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, maximum-scale=5" />
 
-  <title>meowpage</title>
-  <meta name="description" content="meowpage Description">
-  <meta property="og:title" content="meowpage">
-  <meta property="og:description" content="meowpage Description">
-  <meta name="generator" content="Quest">
+  <title>Login Page</title>
 
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400">
-
-  <script src="index.js"></script>
   <link rel="stylesheet" href="{{ url_for('static', filename='css/modal.css' ) }}">
   <link rel="stylesheet" href="{{ url_for('static', filename='css/index.css' ) }}">
 
 </head>
 
 <body class="websiteBody">
-  <h3 style="text-align: center; color:darkgrey"> 
+  <h3 style="text-align: center; color:darkgrey">
     {% with messages = get_flashed_messages() %}
     {% if messages %}
     {% for message in messages %}
@@ -87,7 +81,7 @@
               <button onclick="document.getElementById('id01').style.display='block'"
                 style="width:auto;font-size:50px;">Login</button>
               <div id="id01" class="modal">
-                <form class="modal-content animate" action="/login" method="post">
+                <form class="modal-content animate" action="/logint" method="post">
                   <div class="imgcontainer">
                     <span onclick="document.getElementById('id01').style.display='none'" class="close"
                       title="Close Modal">&times;</span>
@@ -126,7 +120,6 @@
                     <span onclick="document.getElementById('id02').style.display='none'" class="close"
                       title="Close Modal">&times;</span>
                     <img src="../static/images/student.jpg" alt="Avatar1" class="avatar" />
-                    <!-- <img src="../templates/image/sankett.jpg" alt="Avatar1" class="avatar"> -->
                   </div>
 
                   <div class="container">
@@ -145,20 +138,11 @@
                   <div class="container" style="background-color:#f1f1f1">
                     <button type="button" onclick="document.getElementById('id02').style.display='none'"
                       class="cancelbtn">Cancel</button>
-
                   </div>
                 </form>
               </div>
-
-
             </div>
           </div>
-
-
-
-
-
-
         </div>
       </div>
     </div>
@@ -177,6 +161,16 @@
         }
       }
     </script>
+    <section class="footer">
+
+      <div class="box-container">
+
+        <div class="box">
+          <a href="{{url_for('about')}}">about</a>
+          <a href="{{url_for('contact')}}">contact</a>
+        </div>
+      </div>
+    </section>
   </div>
 
 </body>
