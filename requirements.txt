@@ -18,6 +18,7 @@ google-pasta==0.2.0
 grpcio==1.46.3
 h5py==3.7.0
 idna==3.3
+imutils==0.5.4
 itsdangerous==2.1.2
 Jinja2==3.1.2
 keras==2.8.0

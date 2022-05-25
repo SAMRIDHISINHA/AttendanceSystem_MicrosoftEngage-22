@@ -11,6 +11,7 @@ face-recognition = "*"
 psycopg2 = "*"
 cmake = "*"
 tensorflow = "==2.8.0"
+imutils = "*"
 
 [dev-packages]
 
