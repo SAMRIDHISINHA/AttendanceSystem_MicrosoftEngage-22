@@ -1,9 +1,5 @@
 .websiteBody{
   margin: 0;
-  background: url("assets/images/milad_fakurian_nY14Fs8pxT8_unsplash_1.png");
-  background-size: cover ;
-  background-position: center center;
-  /* margin: 0; */
 }.Page{
   display:block;
   margin:auto;
@@ -50,18 +46,18 @@
   position:relative;
   display:flex;
 }
-.milad-fakurian-nY14F {
-  position: relative;
-  z-index: 4;
-  /*   pointer-events:none; */
-  margin-left: 10px;
-  width: 1290px;
-  min-width: 1290px;
-  height: 720px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  min-height: 720px;
-  /* content:url(assets/images/milad_fakurian_nY14Fs8pxT8_unsplash_1.png); */
+.milad-fakurian-nY14F{
+  position:relative;
+  z-index:4;
+  
+  margin-left:10px;
+  margin-right:10px;
+  flex-grow:1;
+  height:720px;
+  margin-top:10px;
+  margin-bottom:10px;
+  min-height:720px;
+  content:url('assets/images/milad_fakurian_nY14Fs8pxT8_unsplash_1.png');
 }
 .milad-fakurian-nY14F-outer{
   
@@ -93,7 +89,7 @@
   position:relative;
   z-index:6;
   
-  margin-left:83px;
+  margin-left:30px;
   width:204px;
   min-width:178px;
   margin-top:16px;
@@ -180,93 +176,19 @@
   position:relative;
   z-index:7;
   
-  margin-left:-1300px;
-  width:1800px;
-  height:950px;
-  margin-top:-812px;
+  margin-left:1px;
+  width:777px;
+  height:497px;
+  margin-top:-552px;
   margin-bottom:55px;
   min-height:497px;
-  /* background-color:rgba(251, 227, 242, 1); */
+  background-color:rgba(251, 227, 242, 1);
   border-radius:44px;
 }
-/* .Frame-9-outer{
+.Frame-9-outer{
   
   z-index:7;
   justify-content:center;
   position:relative;
   display:flex;
-} */
-
-.websiteBody {
-  margin: 0;
-  background: url("assets/images/milad_fakurian_nY14Fs8pxT8_unsplash_1.png");
-  background-size: cover ;
-  background-position: center center;
-
-}
-.Page {
-  display: block;
-  margin: auto;
-  width: 100%;
-  height: auto;
-  pointer-events: auto;
-}
-.Page-outer {
-  /*   pointer-events:none; */
-  z-index: 1;
-}
-.Frame {
-  position: relative;
-  z-index: 2;
-  /*   pointer-events:none; */
-  transform: rotate(1.24240424649975e-17deg);
-  width: 100%;
-  margin-left: 0;
-  height: 720px;
-  min-width: 200px;
-  max-width: 1280px;
-  margin: auto;
-  background-color: transparent;
-  overflow: hidden;
-}
-.Frame-outer {
-  /*   pointer-events:none; */
-  z-index: 2;
-}
-.Background {
-  position: relative;
-  z-index: 3;
-  /*   pointer-events:none; */
-  margin-left: -10px;
-  width: 1310px;
-  min-width: 1310px;
-  height: 740px;
-  margin-top: -10px;
-  margin-bottom: -10px;
-  min-height: 740px;
-}
-.Background-outer {
-  /*   pointer-events:none; */
-  z-index: 3;
-  position: relative;
-  display: flex;
-}
-.milad-fakurian-nY14F {
-  position: relative;
-  z-index: 4;
-  /*   pointer-events:none; */
-  margin-left: 10px;
-  width: 1290px;
-  min-width: 1290px;
-  height: 720px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  min-height: 720px;
-  /* content:url(assets/images/milad_fakurian_nY14Fs8pxT8_unsplash_1.png); */
-}
-.milad-fakurian-nY14F-outer {
-  /*   pointer-events:none; */
-  z-index: 4;
-  position: relative;
-  display: flex;
 }

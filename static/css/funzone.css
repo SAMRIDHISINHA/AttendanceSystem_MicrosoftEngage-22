@@ -1,0 +1,75 @@
+body{
+    height: 100vh;
+    width:100vw;
+    background-image: url(assets/images/123488888.png);
+    background-position: center;
+    overflow: hidden;
+    background-size: cover;
+    position: relative;
+}
+
+a{
+    color: black;
+    font-family: 'Philosopher', sans-serif;
+    text-decoration: none;
+    width: 310px;
+    display: block;
+}
+.btn1{
+    position: relative;
+    left: 332px;
+    top:172px;
+    font-size:85px;
+}
+.btn1:hover{
+    color: rgb(10, 12, 153);
+}
+
+.btn2{
+    position: relative;
+    left: 885px;
+    bottom: 15px;
+    font-size: 82px;
+}
+.btn2:hover{
+    color: rgb(10, 12, 153);
+}
+.btn3{
+    position: relative;
+    left: 322px;
+    top:85px;
+    font-size:85px;
+}
+.btn3:hover{
+    color: rgb(10, 12, 153);
+}
+.btn4{
+    position: relative;
+    left: 945px;
+    bottom: 105px;
+    font-size: 85px;
+}
+.btn4:hover{
+    color: rgb(10, 12, 153);
+}
+
+span{
+    display: block;
+    width: 30px;
+    
+    margin: 0;
+    word-break: keep-all;
+    text-align: center;
+}
+
+.b1{
+    margin-left: 75px;
+}
+
+.b3{
+    margin-left: 38px;
+}
+
+.b4{
+    margin-left: 39px;
+}
