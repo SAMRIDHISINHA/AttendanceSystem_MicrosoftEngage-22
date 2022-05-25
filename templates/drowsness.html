@@ -17,8 +17,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Quantico&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400">
-  <link rel="stylesheet" href="{{ url_for('static', filename='css/about.css' ) }}">
-  <!-- <link rel="stylesheet" href="about.css"> -->
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/drowsness.css' ) }}">
 
 </head>
 
@@ -30,14 +29,23 @@
           <div class="Background-outer">
             <div id="Background" data-name="Background" class="Background">
               <div class="milad-fakurian-nY14F-outer">
-                
+                <img id="milad-fakurian-nY14F" data-name="milad-fakurian-nY14Fs8pxT8-unsplash 1"
+                  alt="milad-fakurian-nY14Fs8pxT8-unsplash 1" class="milad-fakurian-nY14F" />
               </div>
             </div>
           </div>
-          
+          <div class="Frame-8-outer">
+            <div id="Frame-8" data-name="Frame 8" class="Frame-8">
+              <div class="About-Us-outer">
+                <div id="About-Us" data-name="About Us" class="About-Us">
+                  <div key="0">Drowsness??</div>
+                </div>
+              </div>
+            </div>
+          </div>
           <div class="home-outer">
             <div id="home" data-name="home" class="home">
-            
+              <a href="{{url_for('home')}}">
                 <div class="Vector-outer">
                   <img id="Vector" data-name="Vector" alt="Vector" class="Vector" />
                 </div>
@@ -46,12 +54,11 @@
                 </div>
               </a>
             </div>
-          
+          </div>
           <div class="Frame-9-outer">
-            <!-- <div id="Frame-9" data-name="Frame 9" class="Frame-9"> -->
-              <img src="../static/css/assets/images/finalaboutme1.png" alt="adadad" class="Frame-9">
-            <!-- </div> -->
-          <!-- </div> -->
+            <img src="{{ url_for('drows') }}" alt="image 1" class="Frame-9" />
+
+          </div>
         </div>
       </div>
 
