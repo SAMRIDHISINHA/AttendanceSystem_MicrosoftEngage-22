@@ -10,6 +10,7 @@ dlib = "==19.24.0"
 face-recognition = "*"
 psycopg2 = "*"
 cmake = "*"
+tensorflow = "==2.8.0"
 
 [dev-packages]
 
