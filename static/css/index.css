@@ -95,7 +95,7 @@
   position: relative;
   z-index: 6;
   /*   pointer-events:none; */
-  margin-left: 83px;
+  margin-left: 50px;
   width: 433px;
   min-width: 378px;
   margin-top: 16px;
@@ -142,7 +142,7 @@
   position: relative;
   z-index: 10;
   /*   pointer-events:none; */
-  margin-left: 88px;
+  margin-left: 73px;
   width: 198px;
   min-width: 174px;
   margin-top: 50px;
@@ -189,7 +189,7 @@
   position: relative;
   z-index: 8;
   /*   pointer-events:none; */
-  margin-left: 88px;
+  margin-left: 68px;
   width: 205px;
   min-width: 178px;
   margin-top: 50px;

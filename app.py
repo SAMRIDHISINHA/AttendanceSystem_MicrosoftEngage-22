@@ -2,7 +2,6 @@ from flask import Flask, render_template, Response, request, url_for, redirect, 
 from Frame import get_frame
 import numpy as np
 import cv2
-from tensorflow import keras
 from keras.models import load_model
 import sys
 import psycopg2
