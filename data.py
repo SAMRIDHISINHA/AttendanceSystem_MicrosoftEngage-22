@@ -14,11 +14,11 @@ for cur_img in myList:
     images.append(current_img)
     personName.append(os.path.splitext(cur_img)[0])
 print(personName)
+
+
 def image_indir():
     return images
+
+
 def image_name():
     return personName
-
-
-
-

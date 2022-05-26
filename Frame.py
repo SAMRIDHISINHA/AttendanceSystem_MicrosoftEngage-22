@@ -1,6 +1,6 @@
-from data import image_indir , image_name
+from data import image_indir, image_name
 from attendance import add_attendance
-from data import image_indir,image_name
+from data import image_indir, image_name
 from faceEncoding import faceEncodings
 import face_recognition
 from importlib.resources import path
@@ -16,7 +16,8 @@ personName = image_name()
 encodListKnown = faceEncodings(images)
 print("All encodings completed !!!!")
 
-def get_frame(bool = True):
+
+def get_frame(bool=True):
     if bool:
         cap = cv2.VideoCapture(0)
     while True:

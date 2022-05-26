@@ -10,6 +10,7 @@ import random
 camera = cv2.VideoCapture(0)
 path = ""
 
+
 def main_frames(name):
     if name == 'dog':
         nose_image = cv2.imread("./static/animals/dog_nose.png")
@@ -20,7 +21,7 @@ def main_frames(name):
         nose_mask = np.zeros((rows, cols), np.uint8)
         detector = dlib.get_frontal_face_detector()
         predictor = dlib.shape_predictor(
-            "shape_predictor_68_face_landmarks.dat")
+            "./prebild_models/shape_predictor_68_face_landmarks.dat")
         while True:
             _, frame1 = camera.read()
             try:
@@ -97,7 +98,7 @@ def main_frames(name):
         nose_mask = np.zeros((rows, cols), np.uint8)
         detector = dlib.get_frontal_face_detector()
         predictor = dlib.shape_predictor(
-            "shape_predictor_68_face_landmarks.dat")
+            "./prebild_models/shape_predictor_68_face_landmarks.dat")
         while True:
             success, frame3 = camera.read()
             try:
@@ -147,7 +148,7 @@ def main_frames(name):
         panda_mask = np.zeros((rows, cols), np.uint8)
         detector = dlib.get_frontal_face_detector()
         predictor = dlib.shape_predictor(
-            "shape_predictor_68_face_landmarks.dat")
+            "./prebild_models/shape_predictor_68_face_landmarks.dat")
         while True:
             _, frame5 = camera.read()
             try:

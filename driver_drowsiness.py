@@ -1,14 +1,11 @@
-# Importing OpenCV Library for basic image processing functions
 import cv2
-# Numpy for array related functions
 import numpy as np
-# Dlib for deep learning based Modules and face landmark detection
 import dlib
-# face_utils for basic operations of conversion
 from imutils import face_utils
 
 detector = dlib.get_frontal_face_detector()
-predictor = dlib.shape_predictor("shape_predictor_68_face_landmarks.dat")
+predictor = dlib.shape_predictor(
+    "./prebild_models/shape_predictor_68_face_landmarks.dat")
 
 # status marking for current state
 sleep = 0
@@ -33,6 +30,7 @@ def blinked(a, b, c, d, e, f):
         return 1
     else:
         return 0
+
 
 def drowss():
     sleep = 0
@@ -103,4 +101,3 @@ def drowss():
               b'Content-Type: image/jpeg\r\n\r\n' + frame + b'\r\n')
     cap.release()
     cv2.destroyAllWindows()
-
