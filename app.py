@@ -193,14 +193,6 @@ def video_feed_panda():
     return Response(main_frames('panda'),
                     mimetype='multipart/x-mixed-replace; boundary=frame')
 
-
-@app.route('/video_feed/4')
-def video_feed_snake():
-    print(request.base_url, file=sys.stdout)
-    return Response(main_frames('snake'),
-                    mimetype='multipart/x-mixed-replace; boundary=frame')
-
-
 @app.route('/pig')
 def pig():
     return render_template('pig.html')
@@ -214,12 +206,6 @@ def dog():
 @app.route('/panda')
 def panda():
     return render_template('panda.html')
-
-
-@app.route('/snake')
-def snake():
-    return render_template('snake.html')
-
 
 
 

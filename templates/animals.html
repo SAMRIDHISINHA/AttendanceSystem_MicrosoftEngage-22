@@ -34,10 +34,7 @@
     </audio>
    <audio id='pig'>
         <source src="{{url_for('static', filename='sounds/pig.mp3')}}" />
-    </audio>
-    <audio id='snake'>
-        <source src="{{url_for('static', filename='sounds/snake.mp3')}}" />
-    </audio>    
+    </audio>   
     <script type="text/javascript">
         function playclip(animal) 
         {
@@ -65,10 +62,7 @@
                         </a>       
                         <a href="/panda" onmouseover="playclip('panda');">
                             <img src="{{url_for('static', filename='photos/panda.png')}}", height="auto" width="100" class='animals'>
-                        </a>   
-                        <a href="/snake" onmouseover="playclip('snake');">
-                            <img src="{{url_for('static', filename='photos/snake.png')}}", height="auto" width="150" class='animals'>
-                        </a>                    
+                        </a>                     
                 </div>
             </div>
         </div>
