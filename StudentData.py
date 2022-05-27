@@ -4,7 +4,7 @@ dict = {}
 dict['Samridhi'] = "samridhi"
 dict['Biden'] = "biden"
 dict['Satya'] = "satya"
-dict['Taylor'] = "Taylor"
+dict['Taylor'] = "taylor"
 dict['Narendra'] = "narendra"
 
 

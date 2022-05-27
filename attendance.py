@@ -1,10 +1,8 @@
 import psycopg2  # pip install psycopg2
 import psycopg2.extras
 from datetime import datetime
-DB_HOST = "localhost"
-DB_NAME = "Attendance"
-DB_USER = "postgres"
-DB_PASS = "ROOT"
+from database_credential import DB_HOST , DB_NAME , DB_PASS , DB_USER
+
 
 conn = psycopg2.connect(dbname=DB_NAME, user=DB_USER,
                         password=DB_PASS, host=DB_HOST)

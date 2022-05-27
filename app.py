@@ -12,14 +12,11 @@ from attendance import add_attendance, attendance_sheet, making_table
 from animals import main_frames
 from driver_drowsiness import drowss
 from canvas import canvas
+from database_credential import DB_HOST , DB_NAME , DB_PASS , DB_USER
 
 app = Flask(__name__)
-app.secret_key = "meowmeowandolymewo"
+app.secret_key = "microsoftengage"
 
-DB_HOST = "localhost"
-DB_NAME = "Attendance"
-DB_USER = "postgres"
-DB_PASS = "ROOT"
 
 user_list = auth_users()
 admin_list = auth_admin()
