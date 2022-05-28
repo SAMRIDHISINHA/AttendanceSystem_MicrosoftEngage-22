@@ -1,6 +1,6 @@
 __pycache__
 .vscode
-./static/after.jpg
-./static/cropped.jpg
-./static/file.jpg
+after.jpg
+cropped.jpg
+file.jpg
 
