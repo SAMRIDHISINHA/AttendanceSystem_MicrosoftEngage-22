@@ -32,7 +32,7 @@ Attendance Tracker Application is a school portal for both students and teachers
   - Animal filter
 
 ## How To Use
-Detailed tutorial [Installation Guide]()
+Detailed tutorial [Installation Guide](https://drive.google.com/file/d/1aPQdOk-N_pYdEbr5lDBfDDrmgapDO06y/view?usp=sharing)
 - Download Python 3.10.4 (https://www.python.org/downloads/)
 - Install PostgreSQL Database (https://www.enterprisedb.com/downloads/postgres-postgresql-downloads)
 - Open cmd and excecute the following command
@@ -64,6 +64,10 @@ Detailed tutorial [Installation Guide]()
   ```
   python app.py
   ```
+- Run the app on browser
+  ```
+  http://127.0.0.1:8000/
+  ```
 
 ## Tech Stack
 
@@ -74,9 +78,9 @@ Detailed tutorial [Installation Guide]()
 - Tensorflow : Emotion Detection
 
 
-## [Attendance Tracker Documentation](https://drive.google.com/file/d/146BkRoLDoHiL6CbtwrIMRM8sgoLBw-EY/view?usp=sharing)
+## [Attendance Tracker Documentation](https://drive.google.com/file/d/1rz7N8xlutr-pbDitrxpo55koGYyt6_9A/view?usp=sharing)
 
-## [Video](https://youtu.be/Wvr_qD_pokE)
+## [Video](https://youtu.be/gKh8em37Otg)
 
 <div align="center">
 
