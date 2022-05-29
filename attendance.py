@@ -14,7 +14,7 @@ attendance_sheet = "Attendance_" + dStr
 
 cur = conn.cursor(cursor_factory=psycopg2.extras.DictCursor)
 
-
+#making table if it is not there in the database
 def making_table():
     cur.execute(
         f"CREATE TABLE IF NOT EXISTS {attendance_sheet} (name VARCHAR ( 40 ) PRIMARY KEY,time VARCHAR ( 40 ) ,date VARCHAR ( 40 ));")
@@ -22,7 +22,7 @@ def making_table():
     cur.execute("ROLLBACK")
     conn.commit()
 
-
+# Adding attendance to the data base
 def add_attendance(name, time=None, date=None):
     making_table()
     cur = conn.cursor(cursor_factory=psycopg2.extras.DictCursor)

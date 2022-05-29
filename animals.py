@@ -12,6 +12,7 @@ path = ""
 
 
 def main_frames(name):
+    # Dog filter
     if name == 'dog':
         nose_image = cv2.imread("./static/animals/dog_nose.png")
         ears_image = cv2.imread("./static/animals/dog_ears.png")
@@ -91,6 +92,7 @@ def main_frames(name):
                 frame1 = buffer.tobytes()
                 yield (b'--frame1\r\n'
                        b'Content-Type: image/jpeg\r\n\r\n' + frame1 + b'\r\n')
+    # Pig Filter
     if name == 'pig':
         nose_image = cv2.imread("./static/animals/pig_nose.png")
         _, frame3 = camera.read()
@@ -141,6 +143,7 @@ def main_frames(name):
                 frame3 = buffer.tobytes()
                 yield (b'--frame3\r\n'
                        b'Content-Type: image/jpeg\r\n\r\n' + frame3 + b'\r\n')
+    # Panda Filter
     if name == 'panda':
         panda_image = cv2.imread("./static/animals/panda_face.png")
         _, frame5 = camera.read()

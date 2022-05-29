@@ -1,7 +1,7 @@
 import cv2
 import face_recognition
 
-
+#Encodes the face the suitable format
 def faceEncodings(images):
     encodeList = []
     for img in images:

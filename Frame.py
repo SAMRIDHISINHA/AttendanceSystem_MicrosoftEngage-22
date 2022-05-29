@@ -16,7 +16,7 @@ personName = image_name()
 encodListKnown = faceEncodings(images)
 print("All encodings completed !!!!")
 
-
+# Return hte frame with recognized face
 def get_frame(bool=True):
     if bool:
         cap = cv2.VideoCapture(0)

@@ -38,6 +38,7 @@ def canvas():
         paintWindow, (390, 1), (485, 65), colors[2], -1)
     paintWindow = cv2.rectangle(
         paintWindow, (505, 1), (600, 65), colors[3], -1)
+# Adding of buttons on Canvas windows
     cv2.putText(paintWindow, "CLEAR", (49, 33),
                 cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 0, 0), 2, cv2.LINE_AA)
     cv2.putText(paintWindow, "BLUE", (185, 33),
