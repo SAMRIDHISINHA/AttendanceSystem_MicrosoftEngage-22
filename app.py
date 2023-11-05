@@ -64,7 +64,7 @@ def Index():
     list_users = cur.fetchall()
     return render_template('system.html', list_users=list_users)
 
-#Adding Student
+#POST request to add the student's attendance by the teacher manually 
 @app.route('/add_student', methods=['POST'])
 def add_student():
     cur = conn.cursor(cursor_factory=psycopg2.extras.DictCursor)
