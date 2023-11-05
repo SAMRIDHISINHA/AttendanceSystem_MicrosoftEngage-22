@@ -16,7 +16,7 @@ personName = image_name()
 encodListKnown = faceEncodings(images)
 print("All encodings completed !!!!")
 
-# Return hte frame with recognized face
+# Return the frame with recognized face using openCV model
 def get_frame(bool=True):
     if bool:
         cap = cv2.VideoCapture(0)
@@ -43,6 +43,7 @@ def get_frame(bool=True):
                 cv2.putText(frame, name, (x1+6, y2-6),
                             cv2.FONT_HERSHEY_COMPLEX, 1, (0, 0, 255), 2)
                 try:
+                    #this function is being called in attendance.py where the actual insertion of attendance in table is taking place.
                     add_attendance(name)
                 except:
                     pass
